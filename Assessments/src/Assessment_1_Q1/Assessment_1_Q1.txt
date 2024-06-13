@@ -1,0 +1,18 @@
+Scenario:
+You are tasked with developing a simple CRUD application for managing a list of Student objects. Each Student has an id, name, and age. The application should allow the following functionalities:
+1.	Create: Add a new student to the list.
+2.	Read: Display all students or find a student by their id.
+3.	Update: Update the details of a student by their id.
+4.	Delete: Remove a student from the list by their id.
+
+Requirements:
+•	Use ArrayList or HashMap to store the Student objects.
+•	Ensure that the Student class has appropriate constructors, getters, and setters.
+Instructions:
+Implement the following methods in a Java class named StudentManager:
+1.	addStudent(Student student): Adds a new student to the collection.
+2.	getAllStudents(): Returns a list of all students.
+3.	getStudentById(int id): Returns a student by their id, or null if not found.
+4.	updateStudent(int id, String name, int age): Updates the name and age of the student with the specified id.
+5.	deleteStudent(int id): Removes the student with the specified id from the collection.
+	
